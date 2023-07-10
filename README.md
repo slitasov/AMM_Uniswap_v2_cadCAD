@@ -4,8 +4,17 @@ Inspred by
 - https://tokenengineering.net
 - https://www.cadcad.education/start
 
-
 This project documents my initial foray into creating a cadCAD model, specifically simulating trading on Uniswap V2's Automated Market Maker (AMM). The project was executed in three stages: Discovery, Design, and Deployment.
+
+## Structure
+- UNI_V2_cadCAD.ipynb. The file contains execution of the simulation with graphics results in two scenarios (starting price 1 / starting price 0.3)
+- Dependencies.py. This file contains the imports of the required libraries and dependencies for the project.
+- System_Params.py. Here, the parameters for the Parameter Sweep and testing of the system are defined.
+- Policy_Functions.py. This file includes the functions that are used to update the states of the system based on the defined policies.
+- State_Variables.py. The state variables of the system are defined in this file.
+- Partial_State_Update_Block.py. This file executes the simulation of the system iteratively, updating the states based on the defined policies.
+- Configuration.py. The configuration settings for the system are specified in this file.
+- Execution.py. Finally, this file is responsible for the execution of the simulation, bringing together all the necessary components and running the simulation.
 
 ## Discovery Phase
 During the Design phase, I delved into the concept of AMM and designed a system that aligns with its primary objectives: minimizing operational costs and market risks.
