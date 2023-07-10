@@ -1,5 +1,10 @@
 # AMM_cadCAD
 
+Inspred by 
+- https://tokenengineering.net
+- https://www.cadcad.education/start
+
+
 This project documents my initial foray into creating a cadCAD model, specifically simulating trading on Uniswap V2's Automated Market Maker (AMM). The project was executed in three stages: Discovery, Design, and Deployment.
 
 ## Discovery Phase
